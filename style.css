@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #67e9e2;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #2C3E50;
+}
+
+section {
+    margin-bottom: 20px;
+    background: #b1f3ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #34495E;
+    border-bottom: 2px solid #3498DB;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px 0;
+}
+
+.exp-heading {
+    font-weight: bold;
+    color: #2980B9;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2980B9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1A5276;
+}
+
+/* Section-Specific Styling */
+header h1 {
+    font-size: 3em;
+    color: #2980B9;
+}
+
+#Personalinfo ul li {
+    font-weight: bold;
+}
+
+section ul li {
+    font-size: 1.1em;
+}
+
+/* Work Experience Styling */
+#work-experience p, ul ul {
+    margin-left: 20px;
+}
+
+#work-experience ul ul {
+    list-style-type: disc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    body {
+        padding: 10px;
+    }
+}
+
