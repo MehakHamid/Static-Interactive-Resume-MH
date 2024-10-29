@@ -8,3 +8,4 @@ document.getElementById('toggle-skills').addEventListener('click', function() {
         this.textContent = 'Show Skills'; // Change button text
     }
 });
+
