@@ -1,10 +1,10 @@
-var toggleSkillsButton = document.getElementById('toggleSkills');
-var skillsSection = document.getElementById('skills');
-toggleSkillsButton === null || toggleSkillsButton === void 0 ? void 0 : toggleSkillsButton.addEventListener('click', function () {
-    if ((skillsSection === null || skillsSection === void 0 ? void 0 : skillsSection.style.display) === 'none') {
-        skillsSection.style.display = 'block';
-    }
-    else {
-        skillsSection.style.display = 'none';
+document.getElementById('toggle-skills').addEventListener('click', function() {
+    const skillsList = document.getElementById('skills-list');
+    if (skillsList.classList.contains('hidden')) {
+        skillsList.classList.remove('hidden');
+        this.textContent = 'Hide Skills'; // Change button text
+    } else {
+        skillsList.classList.add('hidden');
+        this.textContent = 'Show Skills'; // Change button text
     }
 });
