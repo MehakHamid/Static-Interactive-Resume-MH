@@ -1,109 +1,89 @@
-/* General Styling */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #67e9e2;
-    color: #333;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    margin: 20px;
+    background-color: #e9ecef; /* Light background */
+}
+
+.resume {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    background: #ffffff; /* White background for resume */
 }
 
 header {
     text-align: center;
-    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #007BFF; /* Cool blue color */
+    color: white;
+    border-radius: 8px 8px 0 0;
 }
 
 h1 {
+    margin: 0;
     font-size: 2.5em;
-    color: #2C3E50;
+}
+
+.objective {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column, .right-column {
+    width: 48%;
+}
+
+h2 {
+    border-bottom: 2px solid #17A2B8; /* Teal color for section headings */
+    margin-top: 20px;
+    color: #007BFF; /* Blue for headings */
 }
 
 section {
     margin-bottom: 20px;
-    background: #b1f3ff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    font-size: 1.8em;
-    color: #34495E;
-    border-bottom: 2px solid #3498DB;
-    padding-bottom: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f8f9fa; /* Light gray background for sections */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
-ul li {
-    padding: 8px 0;
-}
-
-.exp-heading {
-    font-weight: bold;
-    color: #2980B9;
+.year {
+    font-style: italic;
+    margin-left: 10px; /* Space between the name and year */
+    color: #6c757d; /* Medium gray color for year */
 }
 
 button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #2980B9;
-    color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #28A745; /* Cool green for button */
+    color: white; /* Button text color */
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #1A5276;
+    background-color: #218838; /* Darker green on hover */
 }
 
-/* Section-Specific Styling */
-header h1 {
-    font-size: 3em;
-    color: #2980B9;
+.hidden {
+    display: none; /* Class to hide elements */
 }
 
-#Personalinfo ul li {
-    font-weight: bold;
-}
 
-section ul li {
-    font-size: 1.1em;
-}
-
-/* Work Experience Styling */
-#work-experience p, ul ul {
-    margin-left: 20px;
-}
-
-#work-experience ul ul {
-    list-style-type: disc;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2em;
-    }
-
-    h2 {
-        font-size: 1.5em;
-    }
-
-    button {
-        font-size: 14px;
-        padding: 8px 16px;
-    }
-
-    body {
-        padding: 10px;
-    }
-}
 
